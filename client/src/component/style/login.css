@@ -1,0 +1,188 @@
+body{
+    background-color: #4e59ad;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.main_div {
+    border: 1px solid rgba(8, 16, 16, .15);
+    height: 22rem;
+    width: 28rem;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.5);
+    background-color: white;
+}
+
+.top_text {
+    font-weight: bold;
+}
+
+.signin {
+    margin: 10px 0px 0px 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.close_butn {
+    margin: -32px 10px 0px 0px;
+    text-align: right;
+    font-size: 22px;
+}
+
+.site_login {
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.auth-welcome {
+    margin: 1rem 1rem -1rem 3rem;
+    text-align: start;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h2 {
+    color: #080f0fd9;
+    font-size: 18px;
+}
+
+p {
+    color: #080f0fbf;
+}
+
+.signin_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin_input {
+    background: white;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #2c3d4f;
+    border-radius: 0px;
+    display: flex;
+    font-size: 15px;
+    font-weight: 100;
+    height: 35px;
+    line-height: 1.5;
+    margin: 5px auto;
+    padding: 0 10px;
+    width: 80%;
+    color: rgb(63, 56, 56);
+}
+
+input:focus{
+    outline: 0.1px solid #ccc;
+}
+input::placeholder {
+    color: grey;
+    font-weight: 100;
+    opacity: 1; 
+  }
+
+.sm-eye-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 30rem;
+    top: 53.5%;
+    width: 30px;
+}
+
+.forget-password {
+    color: grey;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: right;
+    margin: 2px 44px 5px 0px;
+}
+.forget-password:hover{
+    color: #5e9cd1;
+}
+
+.login_btn {
+    background-color: #32c5d2;
+    border: none;
+    color: white;
+    height: 35px;
+    margin: 5px auto;
+    opacity: 1;
+    width: 80%;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.login_btn:hover{
+    background: #1eb4c2;
+}
+.google_btn {
+    background: #dd4b39;
+    border: none;
+    color: white;
+    height: 35px;
+    margin: 5px auto;
+    opacity: 1;
+    width: 80%;
+    font-size: 14px;
+    cursor: pointer;
+}
+.google_btn:hover{
+    background: #c72b17;
+}
+
+
+.bottom_row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 0px 28px;
+    width: 88%;
+    background-color: #f7f7f7;
+    color: grey;
+    padding: 7px 0px 7px 0px;
+}
+
+.get_started {
+    color: #525e64;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 1.5;
+    user-select: none;
+    border: 2px solid #525e64;
+    padding: 8px 30px 7px 30px;
+    font-weight: bold;
+}
+
+.get_started:hover{
+    background-color: #525e64;
+    color: white;
+}
+
+.sm-saperator {
+    border: 1px solid #22283133;
+    display: flex;
+    height: 1px;
+    margin: 10px auto 25px;
+    width: 70%;
+}
+
+.sm-saperator>span {
+    background-color: white;
+    color: #2c3d4f;
+    font-size: 14px;
+    font-weight: 700;
+    height: auto;
+    line-height: 18px;
+    margin: -10px auto;
+    width: 30px;
+    text-align: center;
+}
+.sm-google-login{
+    text-align: center;
+}
+
+

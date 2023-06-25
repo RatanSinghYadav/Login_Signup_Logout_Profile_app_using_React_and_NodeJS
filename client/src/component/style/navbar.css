@@ -1,0 +1,36 @@
+.navbar{
+    box-shadow: 0px 0px 1rem rgba(8,16,16,.15)
+}
+img{
+    height: 40px;
+    margin-left: 10px;
+}
+.site-brand{
+    display: flex;
+    margin-left: 1rem;
+}
+.logo{
+    margin: 4px 1px 0px 8px;
+    font-size: 20px;
+    color:#f3912e
+}
+.nav-right{
+    margin-right: 35px;
+}
+.btn{
+    margin: 0px 12px 0px 0px;
+    font-weight: 500;
+} 
+
+.btn:hover {
+    background-color: #f3912e;
+    color: black;
+}
+.logout{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.userImg{
+    border-radius: 2rem;
+}

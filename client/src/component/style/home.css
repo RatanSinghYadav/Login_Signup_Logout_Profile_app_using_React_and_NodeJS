@@ -1,0 +1,18 @@
+.hero_heading{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: auto;
+}
+.logout{
+    margin: auto;
+    display: flex;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 6px 12px 6px 12px;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
